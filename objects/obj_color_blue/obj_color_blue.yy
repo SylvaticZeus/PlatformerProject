@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_color_blue",
     "eventList": [
-        
+        {
+            "id": "daae4d68-d67e-4585-ac99-fa6002900ca3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "3e2872b6-bd15-45e6-8fa3-ffe0968a6290",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "3d1fd60c-0672-4022-b0b4-6354f5d89e29"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
