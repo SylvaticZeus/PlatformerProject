@@ -1,2 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+if(global.blueequipped=true){
+sprite_index=1;
+}
