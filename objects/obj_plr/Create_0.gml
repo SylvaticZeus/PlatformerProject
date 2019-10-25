@@ -1,3 +1,4 @@
-global.hasblue=false;
-image_speed=0;
-global.blueequipped=false;
+hasBlue = false;
+hasPink = false;
+
+image_speed = 0;
