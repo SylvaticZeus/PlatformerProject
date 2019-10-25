@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 global.hasBlue = false;
 global.hasPink = false;
 
 image_speed = 0;
-=======
+
 //intial values
 hsp = 0; 
 vsp = 0; 
@@ -12,4 +12,4 @@ walksp = 4;
 global.hasblue=false;
 image_speed=0;
 global.blueequipped=false;
->>>>>>> master
+
