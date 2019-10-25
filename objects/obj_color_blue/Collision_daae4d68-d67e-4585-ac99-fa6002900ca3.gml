@@ -1,2 +1,2 @@
+hasBlue = true;
 instance_destroy();
-global.hasblue=true;
