@@ -1,19 +1,13 @@
-global.clickCount--;
+if(global.blueEquipped==true)&&(global.blueShotsLeft=true)
+{
+	global.clickCount=global.clickCount-1;
+	image_index=1;
+}
 
 if (global.clickCount < 0)
 {
-	global.blueEquipped = false;
+	global.blueShotsLeft = false;
 }
 
-// Blue color change
-if (global.blueEquipped == true)
-{
-	image_index = 1;
-}
 
-// Pink color change
-if (global.pinkEquipped == true)
-{
-	image_index = 2;
-}
-
+if(global.pinkEquipped==true){image_index=2;}
