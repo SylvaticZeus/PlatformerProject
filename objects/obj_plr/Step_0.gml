@@ -29,7 +29,7 @@ if(place_meeting(x+hsp,y,obj_wall))
 	hsp = 0;
 }
 //dont care about wall if not one hsp away
-x = x +hsp;
+x = x + hsp;
 
 //vertical movement
 //if there is a wall, one vsp away from you, move if false or not if true
@@ -41,17 +41,13 @@ if(place_meeting(x,y+vsp,obj_wall))
 	vsp = 0;
 }
 //dont care about wall if not one vsp away
-y = y +vsp;
+y = y + vsp;
 
-if(global.blueEquipped=true)
-{
-	sprite_index=1;
-}
 
 // Blue power-up
 if (global.blueEquipped == true)
 {
-	sprite_index = 1;
+	image_index = 1;
 }
 
 if(global.pinkEquipped==true){sprite_index=2}

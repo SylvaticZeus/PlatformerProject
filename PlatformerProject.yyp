@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "e50107ea-6ce5-4bfd-b28a-78bf10044ca0",
+            "Value": {
+                "id": "30c58dd1-27c0-49d1-86b9-249b3fa01f19",
+                "resourcePath": "objects\\obj_color_pink\\obj_color_pink.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f05fbb10-d378-4502-b5e4-52e4aeb4af2c",
             "Value": {
                 "id": "c56f6506-0f7f-4a08-a9eb-6bd0ebff1366",
