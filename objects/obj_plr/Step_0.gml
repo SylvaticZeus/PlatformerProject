@@ -47,7 +47,7 @@ y = y + vsp;
 // Blue power-up
 if (global.blueEquipped == true)
 {
-	sprite_index = 1;
+	image_index = 1;
 }
 
 if(global.pinkEquipped==true){}
