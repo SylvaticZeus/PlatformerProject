@@ -50,4 +50,4 @@ if (global.blueEquipped == true)
 	image_index = 1;
 }
 
-if(global.pinkEquipped==true){}
+if(global.pinkEquipped==true){sprite_index=2}
