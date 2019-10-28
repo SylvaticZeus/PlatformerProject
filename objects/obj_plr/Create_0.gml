@@ -1,4 +1,3 @@
-
 global.hasBlue = false;
 global.hasPink = false;
 
@@ -11,5 +10,5 @@ grv = 0.3;
 walksp = 4; 
 global.hasBlue = false;
 image_speed=0;
-global.blueequipped=false;
+global.blueEquipped=false;
 

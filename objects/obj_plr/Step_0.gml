@@ -43,9 +43,10 @@ if(place_meeting(x,y+vsp,obj_wall))
 //dont care about wall if not one vsp away
 y = y +vsp;
 
-if(global.blueequipped=true){
+if(global.blueEquipped=true){
+<<<<<<< HEAD
 sprite_index=1;}
-if(mouse_check_button(mb_left))&&(global.blueequipped=true){
+if(mouse_check_button(mb_left))&&(global.blueEquipped=true){
 instance_create_layer(x,y,"Instances",obj_bullet_blue);}
 
 // Blue power-up
@@ -53,3 +54,6 @@ if (global.hasBlue == true)
 {
 		
 }
+=======
+sprite_index=1;}
+>>>>>>> master
