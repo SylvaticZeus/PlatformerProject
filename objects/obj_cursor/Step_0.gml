@@ -1,5 +1,5 @@
 // Cursor change blue
-if (global.hasBlue == true)
+if (global.blueequipped == true)
 {	
 	cursor_sprite = spr_cursor_blue;
 	window_set_cursor (cr_none)
