@@ -1,15 +1,15 @@
-firingdelay=0;
-global.hasBlue = false;
-global.hasPink = false;
-
-image_speed = 0;
-
 //intial values
+firingdelay=0;
 hsp = 0; 
 vsp = 0; 
 grv = 0.3;
 walksp = 4; 
-global.hasblue=false;
 image_speed=0;
+
+//Blue
+global.hasBlue = false;
 global.blueequipped=false;
 
+//Pink
+global.hasPink = false;
+global.pinkequipped=false;
