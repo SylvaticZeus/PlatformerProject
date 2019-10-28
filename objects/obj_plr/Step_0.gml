@@ -50,4 +50,9 @@ if (global.blueEquipped == true)
 	image_index = 1;
 }
 
+if (global.clickCount < 0)
+{
+	image_index = 0;
+}
+
 if(global.pinkEquipped==true){sprite_index=2}
