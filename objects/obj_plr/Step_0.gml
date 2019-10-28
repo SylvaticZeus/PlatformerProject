@@ -49,3 +49,5 @@ if (global.blueEquipped == true)
 {
 	sprite_index = 1;
 }
+
+if(global.pinkEquipped==true){}
