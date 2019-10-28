@@ -1,4 +1,4 @@
-
+firingdelay=0;
 global.hasBlue = false;
 global.hasPink = false;
 
