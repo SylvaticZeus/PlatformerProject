@@ -50,8 +50,4 @@ if (global.blueEquipped == true)
 	image_index = 1;
 }
 
-// Pink power-up
-if(global.pinkEquipped==true)
-{
-	image_index = 2;
-}
+if(global.pinkEquipped==true){sprite_index=2}
