@@ -1,7 +1,7 @@
 //player input
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
+key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
 
 
 //get that movement
