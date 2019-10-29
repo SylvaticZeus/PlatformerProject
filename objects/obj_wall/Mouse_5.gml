@@ -1,6 +1,7 @@
-image_index=0;
-global.clickCount=global.clickCount+1;
-if (global.clickCount > 0)
+if (image_index=1)
 {
-	global.blueShotsLeft = true;
+	global.blueEquipped=true;
+	global.clickCount=global.clickCount+1;
 }
+
+image_index=0;
