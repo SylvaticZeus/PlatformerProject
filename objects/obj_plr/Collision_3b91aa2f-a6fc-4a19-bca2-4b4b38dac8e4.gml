@@ -1,9 +1,5 @@
 // Blue power-up
 
-with(obj_wall)
-{
-	if (obj_wall.image_index = 1) //&& (key_jump == true)
-	{
-		//Code
-	}
-}
+if(obj_wall.image_index=1){
+grv=-0.3;
+alarm[0]=60;}
