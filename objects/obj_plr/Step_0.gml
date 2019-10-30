@@ -59,13 +59,9 @@ if(global.pinkEquipped==true){sprite_index=2}
 
 
 // Blue jump
-show_debug_message("Image Index");
-show_debug_message(obj_wall.image_index);
 if (place_meeting(x,y+1,obj_wall_blue))
 { 
-room_goto_next();
 
-/*
 if(playerRecoil!=-1){
     playerRecoil-=1;
    speed= recoilSpeed;
@@ -76,5 +72,4 @@ if(playerRecoil=-1 && playerStop=1){
     speed=0;
     playerStop=-1;
     }
-*/
 }
