@@ -1,9 +1,8 @@
-if(global.blueEquipped==true)&&(global.blueShotsLeft=true)&&(image_index=0)
+if(global.blueEquipped==true)&&(global.blueShotsLeft==true)
 {
 	global.clickCount=global.clickCount-1;
-	image_index=1;
+	instance_change(obj_wall_blue,true);
 }
 
 
 
-if(global.pinkEquipped==true){image_index=2;}
