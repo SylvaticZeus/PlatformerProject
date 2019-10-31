@@ -64,6 +64,8 @@ if (place_meeting(x,y+1,obj_wall_blue))
 
 if(playerRecoil!=+1){
     playerRecoil+=1;
-   speed= recoilSpeed;
+	for(i = recoilSpeed; i < 0; i = i+1){
+   speed= i;
+	}
 }
 }
