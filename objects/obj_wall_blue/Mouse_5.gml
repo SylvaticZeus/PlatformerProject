@@ -1,4 +1,7 @@
-if (global.blueEquipped == false){global.blueEquipped=true;}
-global.clickCount=global.clickCount+1;
+if (global.blueEquipped == false)
+{
+	global.blueEquipped=true;
+	global.clickCount=global.clickCount+1;
 
-instance_change(obj_wall,true);
+	instance_change(obj_wall,true);
+}
