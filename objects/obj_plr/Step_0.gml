@@ -54,11 +54,7 @@ if (global.clickCount < 0)
 {
 	image_index = 0;
 }
-
 if(global.pinkEquipped==true){sprite_index=2}
-
-
-// Blue jump
 if (place_meeting(x,y+1,obj_wall_blue))
 { 
 
