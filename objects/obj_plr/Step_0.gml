@@ -43,7 +43,7 @@ if(place_meeting(x,y+vsp,obj_wall))
 //dont care about wall if not one vsp away
 y = y + vsp;
 
-
+/*
 // Blue power-up
 if (global.blueEquipped == true)
 {
@@ -68,8 +68,17 @@ if(playerRecoil=-1 && playerStop=1){
     playerStop=-1;
     }
 }
+*/
+/*if(place_meeting(x,y+1,obj_wall))
+{
+		jumpspd = 0;
+} */
 
-
+if(place_meeting(x+1,y,obj_wall_blue))
+{
+	vsp = -15;
+	
+}
 
 
 
