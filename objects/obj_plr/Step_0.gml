@@ -28,15 +28,6 @@ if(place_meeting(x+hsp,y,obj_wall))
 	}
 	hsp = 0;
 }
-if(place_meeting(x+hsp,y,obj_wall_blue))
-{
-	//you can move if false or not move if true
-	while(!place_meeting(x+sign(hsp),y,obj_wall_blue))
-	{
-		x = x +sign(hsp);	
-	}
-	hsp = 0;
-}
 //dont care about wall if not one hsp away
 x = x + hsp;
 
@@ -45,13 +36,6 @@ x = x + hsp;
 if(place_meeting(x,y+vsp,obj_wall))
 {
 	while(!place_meeting(x,y+sign(vsp),obj_wall)){
-		y = y +sign(vsp);	
-	}
-	vsp = 0;
-}
-if(place_meeting(x,y+vsp,obj_wall_blue))
-{
-	while(!place_meeting(x,y+sign(vsp),obj_wall_blue)){
 		y = y +sign(vsp);	
 	}
 	vsp = 0;
