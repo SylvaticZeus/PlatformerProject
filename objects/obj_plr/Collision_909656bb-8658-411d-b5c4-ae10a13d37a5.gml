@@ -1,1 +1,1 @@
-playerRecoil=30;
+playerRecoil=1;
