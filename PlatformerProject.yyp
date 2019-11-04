@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "81135262-1d7d-4ca2-994e-68a514a0705b",
+            "Value": {
+                "id": "56d0f265-bf0a-4c5c-992a-88ee88755a46",
+                "resourcePath": "objects\\obj_draw_mouse\\obj_draw_mouse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83698b8a-171c-4815-a8fc-ac1f24bc6dfd",
             "Value": {
                 "id": "73b7c4aa-7388-4d37-b950-3933bdf7b9bd",
