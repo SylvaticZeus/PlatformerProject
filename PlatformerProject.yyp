@@ -410,7 +410,7 @@
             "Key": "b59c86d2-6b92-4afd-8b06-281a8f1773d0",
             "Value": {
                 "id": "fe060fa2-74f7-463e-9f2f-f26eb724d890",
-                "resourcePath": "rooms\\rm_level_2\\rm_level_2.yy",
+                "resourcePath": "rooms\\room_level_2\\room_level_2.yy",
                 "resourceType": "GMRoom"
             }
         },
