@@ -93,6 +93,7 @@ if(place_meeting(x+1,y,obj_wall_blue))
 if(room=2){
 global.blueEquipped=true;
 global.hasBlue=true;
+<<<<<<< HEAD
 }
 */
 //switching room functionality
@@ -116,3 +117,6 @@ if(!place_meeting(x+hsp,y,obj_wall_pink))
 {
 	grv = 0.3;
 }
+
+
+
