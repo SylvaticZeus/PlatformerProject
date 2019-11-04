@@ -96,7 +96,7 @@ global.blueEquipped=true;
 global.hasBlue=true;
 <<<<<<< HEAD
 }
-*/
+
 //switching room functionality
 if(place_meeting(x+hsp,y,obj_end))
 {
@@ -108,7 +108,7 @@ if(place_meeting(x+hsp,y,obj_end))
 		
 }
 
-
+*/
 //this is what makes the sticky pink work
 /*if(place_meeting(x+hsp,y,obj_wall_pink))
 {
