@@ -2,7 +2,7 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
-
+key_down = keyboard_check(ord("S"));
 
 //get that movement
 //determine what is going on
@@ -12,6 +12,12 @@ hsp = move * walksp;
 //what goes up must come down
 vsp = vsp +grv;
 //if your pixl one pixl from now is going to be in contact with the wall, andyou try to jump. set vertical speed super negative
+
+if(key_down)
+{
+	vsp = vsp + 0.3;	
+}
+
 if(place_meeting(x,y+1,obj_wall)) && (key_jump)
 {
 	vsp = -7;	
@@ -42,6 +48,8 @@ if(place_meeting(x,y+vsp,obj_wall))
 }
 //dont care about wall if not one vsp away
 y = y + vsp;
+
+
 
 /*
 // Blue power-up
@@ -81,8 +89,30 @@ if(place_meeting(x+1,y,obj_wall_blue))
 }
 
 
-
+/*
 if(room=2){
 global.blueEquipped=true;
 global.hasBlue=true;
+}
+*/
+//switching room functionality
+if(place_meeting(x+hsp,y,obj_end))
+{
+	global.hasBlue = false;
+	global.blueEquipped = false;
+		cursor_sprite = spr_cursor_none;
+		window_set_cursor (cr_default);
+	room_goto_next();
+		
+}
+
+
+//this is what makes the sticky pink work
+if(place_meeting(x+hsp,y,obj_wall_pink))
+{
+	grv = -0.05;
+}
+if(!place_meeting(x+hsp,y,obj_wall_pink))
+{
+	grv = 0.3;
 }
