@@ -1,7 +1,8 @@
 //player input
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
+if(!place_meeting(x,y,obj_wall_pink)){
+key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));}
 key_down = keyboard_check(ord("S"));
 
 //get that movement
@@ -109,14 +110,22 @@ if(place_meeting(x+hsp,y,obj_end))
 
 */
 //this is what makes the sticky pink work
-if(place_meeting(x+hsp,y,obj_wall_pink))
+/*if(place_meeting(x+hsp,y,obj_wall_pink))
 {
 	grv = -0.05;
-}
+}*/
 if(!place_meeting(x+hsp,y,obj_wall_pink))
 {
 	grv = 0.3;
 }
 
-
-
+if (place_meeting(x+vsp,y,obj_wall_pink))
+{
+	vsp = 0;
+	grv=0;
+}
+if(place_meeting(x+hsp,y,obj_wall_pink))
+{
+	hsp = 0;
+	grv=0;
+}
