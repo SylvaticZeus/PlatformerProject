@@ -1,4 +1,5 @@
-// Ignore this it doesn't work yet
+// Supposed to fade into the next level
+// Not functional yet
 
 a = clamp(a + (fade * .05), 0, 1);
 
