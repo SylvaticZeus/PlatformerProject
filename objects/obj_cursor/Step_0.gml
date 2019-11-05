@@ -1,4 +1,4 @@
-// Cursor change blue
+// Cursor changes to blue when blue power-up is equipped
 if (global.blueEquipped == true)
 {	
 	cursor_sprite = spr_cursor_blue;

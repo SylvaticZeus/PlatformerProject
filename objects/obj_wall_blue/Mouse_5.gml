@@ -1,3 +1,4 @@
+// When 
 if (global.blueEquipped == false)
 {
 	global.blueEquipped=true;
