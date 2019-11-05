@@ -1,3 +1,4 @@
+/*UNUSED CODE*/
 if (place_meeting(x,y+1,obj_wall_blue))
 { 
 
@@ -12,3 +13,4 @@ if(playerRecoil=-1 && playerStop=1){
     playerStop=-1;
     }
 }
+/*UNUSED CODE*/
