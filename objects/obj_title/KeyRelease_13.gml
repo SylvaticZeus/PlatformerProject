@@ -1,2 +1,2 @@
-//Once you hit enter it starts the game
+// When enter is pressed, game starts
 room_goto_next();
