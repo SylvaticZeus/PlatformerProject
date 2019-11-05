@@ -1,1 +1,0 @@
-global.blueequipped=false;

@@ -1,3 +1,5 @@
+//initializing variables to tell when to do work
+
 global.hasBlue = false;
 global.hasPink = false;
 global.pinkEquipped = false;
@@ -10,7 +12,8 @@ grv = 0.3;
 walksp = 4; 
 image_speed = 0;
 
+//not utilized code
 recoilSpeed=13.6;//set recoilSpeed as the speed you wish them to be flung backwards, reduce this if they recoil too fast
 playerRecoil=-1;
 playerStop=-1;
-jumpspd = 0;
+
