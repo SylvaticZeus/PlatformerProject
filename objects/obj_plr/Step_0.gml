@@ -51,7 +51,7 @@ if(place_meeting(x,y+vsp,obj_wall))
 y = y + vsp;
 
 
-
+//this is all attempts at making the trampoline work
 /*
 // Blue power-up
 if (global.blueEquipped == true)
@@ -83,6 +83,7 @@ if(playerRecoil=-1 && playerStop=1){
 		jumpspd = 0;
 } */
 
+//this is what made the trampoline work, when touch blue, move up
 if(place_meeting(x+1,y,obj_wall_blue))
 {
 	vsp = -15;
@@ -114,6 +115,11 @@ if(place_meeting(x+hsp,y,obj_end))
 {
 	grv = -0.05;
 }*/
+
+//logic for when you touch the wall pink, then do things like fight gravity
+// make sure that when you are touching it, you can move left to right.
+//missing code to move up and down
+
 if(!place_meeting(x+hsp,y,obj_wall_pink))
 {
 	grv = 0.3;
